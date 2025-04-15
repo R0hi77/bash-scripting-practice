@@ -13,7 +13,7 @@ MAX=65535
 # How to use port scanning utility
 manual(){
   echo -e "${RED}How to use port scanner utility${RESET}" 
-  echo -e "${RED}Pass IP Adress and starting port and ending port${RESET}"
+  echo -e "${RED}Pass IP Adress, starting port and ending port${RESET}"
   echo -e "${GREEN}Example:${RESET} ${RED}./portScanner 127.0.0.1 4000 5000${RESET}"
   exit 1
 }
